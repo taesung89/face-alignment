@@ -5,3 +5,5 @@ __email__ = 'adrian.bulat@nottingham.ac.uk'
 __version__ = '0.1.0'
 
 from .api import FaceAlignment, LandmarksType, NetworkSize
+from .models import FAN
+from .utils import get_preds_fromhm, crop
